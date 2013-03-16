@@ -13,8 +13,8 @@ if (
     //isset($_SERVER['HTTP_CLIENT_IP'])
     //|| isset($_SERVER['HTTP_X_FORWARDED_FOR'])
 //    || 
-	!in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1'))
-    && !in_array(@$_SERVER['HTTP_CF_CONNECTING_IP'],array('91.90.98.82'))
+	!in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1', '82.234.8.57'))
+    && !in_array(@$_SERVER['HTTP_CF_CONNECTING_IP'],array('91.90.98.82', '82.234.8.57'))
 ) {
     header('HTTP/1.0 403 Forbidden');
     exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');

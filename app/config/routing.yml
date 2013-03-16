@@ -1,0 +1,4 @@
+cluddy_base:
+    resource: "@CluddyBaseBundle/Resources/config/routing.yml"
+    prefix:   /
+

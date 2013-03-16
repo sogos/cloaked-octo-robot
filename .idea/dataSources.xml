@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="87517463">
+    <data-source source="LOCAL" name="Data Source" product="MySQL" version="5.5.30" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )" uuid="c748f90a-e003-4d15-9e8a-3c317ee3d6e0">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:19024</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfefdfc4df93df9fdf9edff8dfc7dfc8dfcedfcfdf8bdf8bdf8bdf8b</user-password>
+      <default-dialect>MySQL</default-dialect>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/mysql-connector-java-5.1.24/mysql-connector-java-5.1.24/mysql-connector-java-5.1.24-bin.jar</url>
+        </library>
+      </libraries>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>direct.responsables-informatiques.fr</proxy-host>
+        <proxy-port>22</proxy-port>
+        <user>apache</user>
+        <use-password>true</use-password>
+        <password>dfefdfc4df93df9fdf9edff8dfc7dfc8dfcedfcfdf8bdf8b</password>
+        <private-key-path />
+        <passphrase />
+        <remote-host>127.0.0.1</remote-host>
+        <remote-port>3306</remote-port>
+        <local-port>19024</local-port>
+      </ssh-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Data Source [2]" product="MySQL" version="5.5.24-log" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )" uuid="f4715468-fb1a-4a05-8bee-b272b9a824b3">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/symfony</jdbc-url>
+      <user-name>root</user-name>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/mysql-connector-java-5.1.24/mysql-connector-java-5.1.24/mysql-connector-java-5.1.24-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
